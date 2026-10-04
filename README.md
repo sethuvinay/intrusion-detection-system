@@ -109,6 +109,15 @@ same pipeline step by step on synthetic data — start there for the tour.
 
 On headless servers, export `MPLBACKEND=Agg` so plots save without a display.
 
+## Sample outputs
+
+Illustrative figures produced by the synthetic-data demo (`--dataset synthetic`) —
+they show what the pipeline's outputs look like, not the original research results.
+
+![Confusion matrix on synthetic demo data](docs/images/confusion_matrix.png)
+
+![Baseline accuracy and false-positive rate on synthetic demo data](docs/images/metrics_comparison.png)
+
 ## Why the false-positive rate matters
 
 An IDS that cries wolf burns out the SOC: every false alarm costs analyst
