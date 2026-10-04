@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large benchmark files live here, never committed)
+data/
+*.csv
+*.txt
+
+# Experiment outputs
+outputs/
+results/
+*.joblib
+*.pt
+*.pth
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
